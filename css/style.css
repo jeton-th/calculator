@@ -58,12 +58,8 @@ html, body {
     cursor: pointer;
 }
 
-.button:hover, .button:focus {
+.button:hover {
     background: radial-gradient(#335, #224);
-}
-
-.button:active {
-    background: #223;
 }
 
 #ac {
