@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient( rgb(172, 173, 233), rgb(139, 145, 228));}
+
+#main {
+    padding: 0;
+    max-width: 320px;
+    box-shadow: 0 10px 10px rgb(107, 107, 143);
+    margin: 50px auto;
+    color: #fff;
+    border: none;
+}
+
+#expression {
+    padding: 20px;
+    background: linear-gradient(rgb(222, 222, 235), rgb(232, 232, 240));
+    color: rgba(76, 76, 100, 0.4);
+    font: 16px sans-serif;
+    line-height: 1.5em;
+    text-align: right;
+}
+
+#display {
+    width: 100%;
+    padding: 0 20px 0;
+    box-sizing: border-box;
+    color: rgb(76, 76, 100);
+    background: linear-gradient(rgb(232, 232, 240), rgb(233, 233, 240));
+    font: 30px sans-serif;
+    vertical-align: top;
+    text-align: right;
+    border: none;
+    resize: none;
+}
+
+#display::placeholder {
+    color: #557;
+    opacity: 0.4;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    box-sizing: border-box;
+}
+
+.button {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    font: 22px sans-serif;
+    background: #557;
+    color: #aaa;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover, .button:focus {
+    background: radial-gradient(#335, #224);
+}
+
+.button:active {
+    background: #223;
+}
+
+#ac {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+#backspace, #negative {
+    font-size: 0.8em;
+    border: none;
+}
+
+#asterisk {
+    font-size: 1.2em;
+
+}
+
+.num {
+    color: #fff;
+}
