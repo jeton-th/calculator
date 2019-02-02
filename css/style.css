@@ -1,16 +1,18 @@
-html, body {
+body {
     margin: 0;
     padding: 0;
     height: 100%;
     background: linear-gradient( rgb(172, 173, 233), rgb(139, 145, 228));}
 
 #main {
-    padding: 0;
+    box-sizing: border-box;
     max-width: 320px;
-    box-shadow: 0 10px 10px rgb(107, 107, 143);
-    margin: 50px auto;
-    color: #fff;
-    border: none;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#calculator {
+    box-shadow: 0 10px 20px 5px rgb(146, 146, 180);
 }
 
 #expression {
