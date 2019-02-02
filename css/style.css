@@ -58,10 +58,12 @@ html, body {
     cursor: pointer;
 }
 
-.button:hover {
-    background: radial-gradient(#335, #224);
+@media (hover:hover) {
+    .button:hover {
+        background: radial-gradient(#335, #224);
+    }
 }
-
+    
 #ac {
     grid-column-start: 1;
     grid-column-end: span 2;
