@@ -2,7 +2,6 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
     background: linear-gradient( rgb(172, 173, 233), rgb(139, 145, 228));}
 
 #main {
